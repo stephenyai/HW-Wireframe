@@ -12,6 +12,7 @@ body {
 	width: 960px;
 	font-size: 18px;
 	margin: auto;
+	clear: both;
 }
 
 header, nav, section, aside, #main_article, footer {
@@ -24,21 +25,21 @@ header, nav, footer {
 }
 
 section {
-	display: inline-block;
+	overflow: auto;
 	float: left;
 	margin-top: 15px;
-	padding: 40px 10px 10px 10px;
+	padding: 40px 10px 10px;
 	width: 495px;
 }
 
-#main_article {
+article {
     padding: 20px 15px 5px;
-    margin: 30px 5px 5px 5px;
+    margin: 30px 5px 5px;
     color: #ebebeb;
     background: #777;
 }
 
-.subarticle {
+.header {
 	padding: 15px;
 	margin: 15px auto;
 	color: #777;
@@ -46,12 +47,11 @@ section {
 }
 
 aside {
-	padding: 40px 40px 230px;
+	padding: 39px 40px 230px;
 	width: 450px;
-	margin-top: 15px;
+	margin: 15px auto 10px;
 	float: right;
 	overflow: auto;
-	margin-left: 5px;
 }
 
 footer {
