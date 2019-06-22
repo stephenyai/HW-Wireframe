@@ -1,4 +1,4 @@
-
+ 
 * {
   box-sizing: border-box;
   text-align: center;
@@ -19,7 +19,7 @@ header, nav, section, aside, #main_article, footer {
 	background: #ebebeb;
 }
 
-header, nav, footer {
+header, nav {
 	padding: 40px;
 	margin: 10px auto;
 }
@@ -46,15 +46,25 @@ article {
 	background: #ebebeb;
 }
 
+h1 {
+	font-weight: bold;
+}
+
+p {
+	font-weight: 100;
+}
+
 aside {
 	padding: 39px 40px 230px;
 	width: 450px;
-	margin: 15px auto 10px;
+	margin: 15px auto 20px;
 	float: right;
 	overflow: auto;
 }
 
 footer {
+	padding: 40px;
+	margin-top: 10px;
 	clear: both;
 	overflow: auto;
 }
